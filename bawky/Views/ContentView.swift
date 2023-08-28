@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var LogItems: [String.SubSequence] = ["innited console. debugMode = true"]
+    @State var debugMode = true
     @StateObject private var userSettings = UserSettings()
     @State private var autoRespring = false
     @State private var exploit_method = 0
@@ -24,17 +26,49 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack {
-                Button("kopen") {
-                    exploit(puaf_pages: UInt64(puafPagesOptions[puafPagesIndex]), puaf_method: UInt64(puafMethod), kread_method: UInt64(kreadMethod), kwrite_method: UInt64(kwriteMethod)) //kopen
-                    fix_exploit()
+                if debugMode == true {
+                    ScrollView {
+                        ScrollViewReader { scroll in
+                            VStack(alignment: .leading) {
+                                ForEach(0..<LogItems.count, id: \.self) { LogItem in
+                                    Text("\(String(LogItems[LogItem]))")
+                                        .textSelection(.enabled)
+                                        .font(.custom("Menlo", size: 15))
+                                }
+                            }
+                            .onReceive(NotificationCenter.default.publisher(for: LogStream.shared.reloadNotification)) { obj in
+                                DispatchQueue.global(qos: .utility).async {
+                                    FetchLog()
+                                    scroll.scrollTo(LogItems.count - 1)
+                                }
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+                    .padding()
+                    .frame(width: UIScreen.main.bounds.width - 80, height: 300)
+                    .background(Color(UIColor.systemGray6))
+                    .cornerRadius(20)
                 }
-                .padding()
-                Button("kclose") {
-                    close_exploit()
-                }
-                .padding()
-                Button("respring") {
-                    respring()
+                
+                HStack {
+                    Button("kopen") {
+                        exploit(puaf_pages: UInt64(puafPagesOptions[puafPagesIndex]), puaf_method: UInt64(puafMethod), kread_method: UInt64(kreadMethod), kwrite_method: UInt64(kwriteMethod)) //kopen
+                        fix_exploit()
+                    }
+                    .buttonStyle(.bordered)
+                    Button("kclose") {
+                        close_exploit()
+                    }
+                    .buttonStyle(.bordered)
+                    Button("respring") {
+                        respring()
+                    }
+                    .buttonStyle(.bordered)
+                    Button("recache") {
+                        remvoeIconCache()
+                    }
+                    .buttonStyle(.bordered)
                 }
             }
             .navigationBarItems(
@@ -59,6 +93,13 @@ struct ContentView: View {
             .padding()
         }
     }
+    func FetchLog() {
+            guard let AttributedText = LogStream.shared.outputString.copy() as? NSAttributedString else {
+                LogItems = ["Error Getting Log!"]
+                return
+            }
+            LogItems = AttributedText.string.split(separator: "\n")
+        }
 }
 
 #Preview {

@@ -21,7 +21,6 @@ struct InfoView: View {
                     creditView(imageURL: URL(string: "https://avatars.githubusercontent.com/u/59540996?v=4"), name: "leminlimez", description: "Cowabunga")
                     creditView(imageURL: URL(string: "https://avatars.githubusercontent.com/u/121408851?v=4"), name: "straight-tamago", description: "Exploit Help")
                     creditView(imageURL: URL(string: "https://avatars.githubusercontent.com/u/85764897?v=4"), name: "haxi0", description: "The view you're viewing right now !")
-                    creditView(imageURL: URL(string: "https://avatars.githubusercontent.com/u/87151697?v=4"), name: "BomberFish", description: "SwiftMDC")
                     creditView(imageURL: URL(string: "https://avatars.githubusercontent.com/u/53051058?v=4"), name: "felix-pb", description: "KFD Exploit")
                 }
                 .padding()

@@ -11,3 +11,5 @@
 #import "exploit/MDC/grant_full_disk_access.h"
 #import "exploit/MDC/helpers.h"
 #import "exploit/MDC/jit.h"
+#import "Externalibs/ISIconCacheServiceProtocol-Protocol.h"
+#import "Externalibs/IconServices.h"

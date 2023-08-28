@@ -24,8 +24,33 @@
 		7937A3582A9CD15E00B144EA /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = 7937A34F2A9CD15E00B144EA /* vm_unaligned_copy_switch_race.c */; };
 		7937A3592A9CD15E00B144EA /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3502A9CD15E00B144EA /* grant_full_disk_access.m */; };
 		7937A35A2A9CD15E00B144EA /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3512A9CD15E00B144EA /* helpers.m */; };
-		7937A35D2A9CD3B300B144EA /* userSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A35C2A9CD3B300B144EA /* userSelection.swift */; };
+		7937A35D2A9CD3B300B144EA /* UserSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A35C2A9CD3B300B144EA /* UserSelection.swift */; };
 		7937A35F2A9CD75700B144EA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A35E2A9CD75700B144EA /* InfoView.swift */; };
+		7937A3772A9CF2ED00B144EA /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 7937A3762A9CF2ED00B144EA /* ACarousel */; };
+		7937A37A2A9CF30500B144EA /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7937A3792A9CF30500B144EA /* Dynamic */; };
+		7937A3822A9CF3AB00B144EA /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7937A3812A9CF3AB00B144EA /* CachedAsyncImage */; };
+		7937A3852A9CF3BF00B144EA /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 7937A3842A9CF3BF00B144EA /* Zip */; };
+		7937A3882A9CF3F800B144EA /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 7937A3872A9CF3F800B144EA /* ZIPFoundation */; };
+		7937A3962A9CF8A800B144EA /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3912A9CF8A800B144EA /* Color++.swift */; };
+		7937A3972A9CF8A800B144EA /* CornerRadius++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3922A9CF8A800B144EA /* CornerRadius++.swift */; };
+		7937A3982A9CF8A800B144EA /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3932A9CF8A800B144EA /* ButtonStyles.swift */; };
+		7937A3992A9CF8A800B144EA /* TextField++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3942A9CF8A800B144EA /* TextField++.swift */; };
+		7937A39A2A9CF8A800B144EA /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3952A9CF8A800B144EA /* View++.swift */; };
+		7937A3A82A9CF94900B144EA /* FilePickerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A39B2A9CF94200B144EA /* FilePickerViewControllerDelegate.swift */; };
+		7937A3A92A9CF94900B144EA /* MachineName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A39C2A9CF94200B144EA /* MachineName.swift */; };
+		7937A3AA2A9CF94900B144EA /* String+subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A39D2A9CF94300B144EA /* String+subscript.swift */; };
+		7937A3AB2A9CF94900B144EA /* UIImage+resizeToApprox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A39E2A9CF94300B144EA /* UIImage+resizeToApprox.swift */; };
+		7937A3AC2A9CF94900B144EA /* Haptic++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A39F2A9CF94400B144EA /* Haptic++.swift */; };
+		7937A3AD2A9CF94900B144EA /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A12A9CF94500B144EA /* AppIcon.swift */; };
+		7937A3AE2A9CF94900B144EA /* ChangeAppIconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A22A9CF94500B144EA /* ChangeAppIconViewModel.swift */; };
+		7937A3AF2A9CF94900B144EA /* Device+xpc_crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A32A9CF94600B144EA /* Device+xpc_crash.swift */; };
+		7937A3B02A9CF94900B144EA /* pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A42A9CF94600B144EA /* pow.swift */; };
+		7937A3B12A9CF94900B144EA /* URLCache+imageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A52A9CF94700B144EA /* URLCache+imageCache.swift */; };
+		7937A3B22A9CF94900B144EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A62A9CF94800B144EA /* Extensions.swift */; };
+		7937A3B32A9CF94900B144EA /* Alert++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3A72A9CF94900B144EA /* Alert++.swift */; };
+		7937A3B52A9CFA5F00B144EA /* TintedButton14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3B42A9CFA5F00B144EA /* TintedButton14.swift */; };
+		7937A3B72A9CFACF00B144EA /* ToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3B62A9CFACF00B144EA /* ToolsManager.swift */; };
+		7937A3BB2A9CFC6A00B144EA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A3BA2A9CFC6A00B144EA /* MaterialView.swift */; };
 		79406F9E2A9CB38F00250D90 /* BuildChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79406F9D2A9CB38F00250D90 /* BuildChecker.swift */; };
 		79C3D9822A9CB03900EB3A6D /* bawkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3D9812A9CB03900EB3A6D /* bawkyApp.swift */; };
 		79C3D9842A9CB03900EB3A6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3D9832A9CB03900EB3A6D /* ContentView.swift */; };
@@ -98,8 +123,30 @@
 		7937A3532A9CD15E00B144EA /* vm_unaligned_copy_switch_race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_unaligned_copy_switch_race.h; sourceTree = "<group>"; };
 		7937A3542A9CD15E00B144EA /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
 		7937A3552A9CD15E00B144EA /* grant_full_disk_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grant_full_disk_access.h; sourceTree = "<group>"; };
-		7937A35C2A9CD3B300B144EA /* userSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSelection.swift; sourceTree = "<group>"; };
+		7937A35C2A9CD3B300B144EA /* UserSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelection.swift; sourceTree = "<group>"; };
 		7937A35E2A9CD75700B144EA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		7937A3912A9CF8A800B144EA /* Color++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		7937A3922A9CF8A800B144EA /* CornerRadius++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CornerRadius++.swift"; sourceTree = "<group>"; };
+		7937A3932A9CF8A800B144EA /* ButtonStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		7937A3942A9CF8A800B144EA /* TextField++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField++.swift"; sourceTree = "<group>"; };
+		7937A3952A9CF8A800B144EA /* View++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
+		7937A39B2A9CF94200B144EA /* FilePickerViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePickerViewControllerDelegate.swift; sourceTree = "<group>"; };
+		7937A39C2A9CF94200B144EA /* MachineName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineName.swift; sourceTree = "<group>"; };
+		7937A39D2A9CF94300B144EA /* String+subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+subscript.swift"; sourceTree = "<group>"; };
+		7937A39E2A9CF94300B144EA /* UIImage+resizeToApprox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+resizeToApprox.swift"; sourceTree = "<group>"; };
+		7937A39F2A9CF94400B144EA /* Haptic++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Haptic++.swift"; sourceTree = "<group>"; };
+		7937A3A12A9CF94500B144EA /* AppIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		7937A3A22A9CF94500B144EA /* ChangeAppIconViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeAppIconViewModel.swift; sourceTree = "<group>"; };
+		7937A3A32A9CF94600B144EA /* Device+xpc_crash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Device+xpc_crash.swift"; sourceTree = "<group>"; };
+		7937A3A42A9CF94600B144EA /* pow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pow.swift; sourceTree = "<group>"; };
+		7937A3A52A9CF94700B144EA /* URLCache+imageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLCache+imageCache.swift"; sourceTree = "<group>"; };
+		7937A3A62A9CF94800B144EA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7937A3A72A9CF94900B144EA /* Alert++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alert++.swift"; sourceTree = "<group>"; };
+		7937A3B42A9CFA5F00B144EA /* TintedButton14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintedButton14.swift; sourceTree = "<group>"; };
+		7937A3B62A9CFACF00B144EA /* ToolsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsManager.swift; sourceTree = "<group>"; };
+		7937A3BA2A9CFC6A00B144EA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		7937A3BC2A9CFDD400B144EA /* ISIconCacheServiceProtocol-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISIconCacheServiceProtocol-Protocol.h"; sourceTree = "<group>"; };
+		7937A3BD2A9CFDD500B144EA /* IconServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconServices.h; sourceTree = "<group>"; };
 		79406F9D2A9CB38F00250D90 /* BuildChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildChecker.swift; sourceTree = "<group>"; };
 		79C3D97E2A9CB03900EB3A6D /* bawky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bawky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C3D9812A9CB03900EB3A6D /* bawkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bawkyApp.swift; sourceTree = "<group>"; };
@@ -118,7 +165,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7937A3852A9CF3BF00B144EA /* Zip in Frameworks */,
+				7937A37A2A9CF30500B144EA /* Dynamic in Frameworks */,
+				7937A3772A9CF2ED00B144EA /* ACarousel in Frameworks */,
+				7937A3822A9CF3AB00B144EA /* CachedAsyncImage in Frameworks */,
 				7937A2E62A9CBD9C00B144EA /* WelcomeSheet in Frameworks */,
+				7937A3882A9CF3F800B144EA /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +313,49 @@
 			path = MDC;
 			sourceTree = "<group>";
 		};
+		7937A3902A9CF8A800B144EA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7937A3912A9CF8A800B144EA /* Color++.swift */,
+				7937A3922A9CF8A800B144EA /* CornerRadius++.swift */,
+				7937A3932A9CF8A800B144EA /* ButtonStyles.swift */,
+				7937A3942A9CF8A800B144EA /* TextField++.swift */,
+				7937A3952A9CF8A800B144EA /* View++.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7937A3A02A9CF94500B144EA /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				7937A3A12A9CF94500B144EA /* AppIcon.swift */,
+				7937A3A22A9CF94500B144EA /* ChangeAppIconViewModel.swift */,
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
 		79406F9C2A9CB37300250D90 /* Externalibs */ = {
 			isa = PBXGroup;
 			children = (
+				7937A3BD2A9CFDD500B144EA /* IconServices.h */,
+				7937A3BC2A9CFDD400B144EA /* ISIconCacheServiceProtocol-Protocol.h */,
+				7937A3BA2A9CFC6A00B144EA /* MaterialView.swift */,
+				7937A3A72A9CF94900B144EA /* Alert++.swift */,
+				7937A3A02A9CF94500B144EA /* AppIcon */,
+				7937A3A32A9CF94600B144EA /* Device+xpc_crash.swift */,
+				7937A3A62A9CF94800B144EA /* Extensions.swift */,
+				7937A39B2A9CF94200B144EA /* FilePickerViewControllerDelegate.swift */,
+				7937A39F2A9CF94400B144EA /* Haptic++.swift */,
+				7937A39C2A9CF94200B144EA /* MachineName.swift */,
+				7937A3A42A9CF94600B144EA /* pow.swift */,
+				7937A39D2A9CF94300B144EA /* String+subscript.swift */,
+				7937A3B42A9CFA5F00B144EA /* TintedButton14.swift */,
+				7937A3B62A9CFACF00B144EA /* ToolsManager.swift */,
+				7937A39E2A9CF94300B144EA /* UIImage+resizeToApprox.swift */,
+				7937A3A52A9CF94700B144EA /* URLCache+imageCache.swift */,
+				7937A3902A9CF8A800B144EA /* UI */,
 				79406F9D2A9CB38F00250D90 /* BuildChecker.swift */,
-				7937A35C2A9CD3B300B144EA /* userSelection.swift */,
+				7937A35C2A9CD3B300B144EA /* UserSelection.swift */,
 				7937A2E72A9CBDC200B144EA /* Startup.swift */,
 			);
 			path = Externalibs;
@@ -348,6 +438,11 @@
 			name = bawky;
 			packageProductDependencies = (
 				7937A2E52A9CBD9C00B144EA /* WelcomeSheet */,
+				7937A3762A9CF2ED00B144EA /* ACarousel */,
+				7937A3792A9CF30500B144EA /* Dynamic */,
+				7937A3812A9CF3AB00B144EA /* CachedAsyncImage */,
+				7937A3842A9CF3BF00B144EA /* Zip */,
+				7937A3872A9CF3F800B144EA /* ZIPFoundation */,
 			);
 			productName = bawky;
 			productReference = 79C3D97E2A9CB03900EB3A6D /* bawky.app */;
@@ -424,6 +519,11 @@
 			mainGroup = 79C3D9752A9CB03900EB3A6D;
 			packageReferences = (
 				7937A2E42A9CBD9C00B144EA /* XCRemoteSwiftPackageReference "Welcome-Sheet" */,
+				7937A3752A9CF2ED00B144EA /* XCRemoteSwiftPackageReference "ACarousel" */,
+				7937A3782A9CF30500B144EA /* XCRemoteSwiftPackageReference "Dynamic" */,
+				7937A3802A9CF3AB00B144EA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				7937A3832A9CF3BF00B144EA /* XCRemoteSwiftPackageReference "Zip" */,
+				7937A3862A9CF3F800B144EA /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 			);
 			productRefGroup = 79C3D97F2A9CB03900EB3A6D /* Products */;
 			projectDirPath = "";
@@ -468,25 +568,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				7937A3422A9CD11200B144EA /* ezkfd.swift in Sources */,
+				7937A3AF2A9CF94900B144EA /* Device+xpc_crash.swift in Sources */,
 				7937A3452A9CD11200B144EA /* helpers.m in Sources */,
 				7937A3582A9CD15E00B144EA /* vm_unaligned_copy_switch_race.c in Sources */,
+				7937A3962A9CF8A800B144EA /* Color++.swift in Sources */,
+				7937A3B02A9CF94900B144EA /* pow.swift in Sources */,
 				79C3D9842A9CB03900EB3A6D /* ContentView.swift in Sources */,
+				7937A3B72A9CFACF00B144EA /* ToolsManager.swift in Sources */,
+				7937A3AE2A9CF94900B144EA /* ChangeAppIconViewModel.swift in Sources */,
+				7937A3B52A9CFA5F00B144EA /* TintedButton14.swift in Sources */,
+				7937A3B22A9CF94900B144EA /* Extensions.swift in Sources */,
 				79C3D9822A9CB03900EB3A6D /* bawkyApp.swift in Sources */,
-				7937A35D2A9CD3B300B144EA /* userSelection.swift in Sources */,
+				7937A35D2A9CD3B300B144EA /* UserSelection.swift in Sources */,
 				79406F9E2A9CB38F00250D90 /* BuildChecker.swift in Sources */,
+				7937A3AD2A9CF94900B144EA /* AppIcon.swift in Sources */,
+				7937A3AA2A9CF94900B144EA /* String+subscript.swift in Sources */,
 				7937A34B2A9CD11200B144EA /* proc.c in Sources */,
+				7937A3AB2A9CF94900B144EA /* UIImage+resizeToApprox.swift in Sources */,
 				7937A3462A9CD11200B144EA /* utils.m in Sources */,
 				7937A3592A9CD15E00B144EA /* grant_full_disk_access.m in Sources */,
 				7937A3492A9CD11200B144EA /* offsets.m in Sources */,
+				7937A3AC2A9CF94900B144EA /* Haptic++.swift in Sources */,
 				7937A3482A9CD11200B144EA /* krw.c in Sources */,
 				7937A3472A9CD11200B144EA /* thanks_opa334dev_htrowii.m in Sources */,
 				7937A35F2A9CD75700B144EA /* InfoView.swift in Sources */,
+				7937A3992A9CF8A800B144EA /* TextField++.swift in Sources */,
 				7937A3442A9CD11200B144EA /* grant_full_disk_access.m in Sources */,
+				7937A3B12A9CF94900B144EA /* URLCache+imageCache.swift in Sources */,
+				7937A3982A9CF8A800B144EA /* ButtonStyles.swift in Sources */,
+				7937A3A82A9CF94900B144EA /* FilePickerViewControllerDelegate.swift in Sources */,
+				7937A3B32A9CF94900B144EA /* Alert++.swift in Sources */,
+				7937A3972A9CF8A800B144EA /* CornerRadius++.swift in Sources */,
 				7937A2E82A9CBDC200B144EA /* Startup.swift in Sources */,
 				7937A32B2A9CCEDD00B144EA /* kfdSetup.swift in Sources */,
+				7937A39A2A9CF8A800B144EA /* View++.swift in Sources */,
 				7937A34A2A9CD11200B144EA /* vnode.m in Sources */,
+				7937A3A92A9CF94900B144EA /* MachineName.swift in Sources */,
 				7937A3572A9CD15E00B144EA /* jit.m in Sources */,
 				7937A3432A9CD11200B144EA /* fun.m in Sources */,
+				7937A3BB2A9CFC6A00B144EA /* MaterialView.swift in Sources */,
 				7937A35A2A9CD15E00B144EA /* helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -832,6 +952,46 @@
 				version = 1.2.0;
 			};
 		};
+		7937A3752A9CF2ED00B144EA /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		7937A3782A9CF30500B144EA /* XCRemoteSwiftPackageReference "Dynamic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mhdhejazi/Dynamic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		7937A3802A9CF3AB00B144EA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		7937A3832A9CF3BF00B144EA /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+		7937A3862A9CF3F800B144EA /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.16;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -839,6 +999,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7937A2E42A9CBD9C00B144EA /* XCRemoteSwiftPackageReference "Welcome-Sheet" */;
 			productName = WelcomeSheet;
+		};
+		7937A3762A9CF2ED00B144EA /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7937A3752A9CF2ED00B144EA /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+		7937A3792A9CF30500B144EA /* Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7937A3782A9CF30500B144EA /* XCRemoteSwiftPackageReference "Dynamic" */;
+			productName = Dynamic;
+		};
+		7937A3812A9CF3AB00B144EA /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7937A3802A9CF3AB00B144EA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		7937A3842A9CF3BF00B144EA /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7937A3832A9CF3BF00B144EA /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+		7937A3872A9CF3F800B144EA /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7937A3862A9CF3F800B144EA /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
