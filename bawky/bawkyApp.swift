@@ -42,9 +42,8 @@ struct bawkyApp: App {
                         }
                     }
                     if !UserDefaults.standard.bool(forKey: "hasLaunchedBefore") {
-//                        UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+                        UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
                         showSetupSheet = true
-                        print(colorSchemee)
                     }
                 }
                 .alert(isPresented: $isntCompatibleAlert) {
