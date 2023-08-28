@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7937A2E62A9CBD9C00B144EA /* WelcomeSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 7937A2E52A9CBD9C00B144EA /* WelcomeSheet */; };
+		7937A2E82A9CBDC200B144EA /* Startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937A2E72A9CBDC200B144EA /* Startup.swift */; };
+		79406F9E2A9CB38F00250D90 /* BuildChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79406F9D2A9CB38F00250D90 /* BuildChecker.swift */; };
 		79C3D9822A9CB03900EB3A6D /* bawkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3D9812A9CB03900EB3A6D /* bawkyApp.swift */; };
 		79C3D9842A9CB03900EB3A6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3D9832A9CB03900EB3A6D /* ContentView.swift */; };
 		79C3D9862A9CB04100EB3A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C3D9852A9CB04100EB3A6D /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7937A2E72A9CBDC200B144EA /* Startup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startup.swift; sourceTree = "<group>"; };
+		7937A2EA2A9CCE1800B144EA /* bawky-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bawky-Bridging-Header.h"; sourceTree = "<group>"; };
+		79406F9D2A9CB38F00250D90 /* BuildChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildChecker.swift; sourceTree = "<group>"; };
 		79C3D97E2A9CB03900EB3A6D /* bawky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bawky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C3D9812A9CB03900EB3A6D /* bawkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bawkyApp.swift; sourceTree = "<group>"; };
 		79C3D9832A9CB03900EB3A6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7937A2E62A9CBD9C00B144EA /* WelcomeSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +78,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7937A2E92A9CCDDC00B144EA /* exploit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = exploit;
+			sourceTree = "<group>";
+		};
+		79406F9C2A9CB37300250D90 /* Externalibs */ = {
+			isa = PBXGroup;
+			children = (
+				79406F9D2A9CB38F00250D90 /* BuildChecker.swift */,
+				7937A2E72A9CBDC200B144EA /* Startup.swift */,
+			);
+			path = Externalibs;
+			sourceTree = "<group>";
+		};
 		79C3D9752A9CB03900EB3A6D = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +119,11 @@
 			children = (
 				79C3D9812A9CB03900EB3A6D /* bawkyApp.swift */,
 				79C3D9832A9CB03900EB3A6D /* ContentView.swift */,
+				7937A2E92A9CCDDC00B144EA /* exploit */,
+				79406F9C2A9CB37300250D90 /* Externalibs */,
 				79C3D9852A9CB04100EB3A6D /* Assets.xcassets */,
 				79C3D9872A9CB04100EB3A6D /* Preview Content */,
+				7937A2EA2A9CCE1800B144EA /* bawky-Bridging-Header.h */,
 			);
 			path = bawky;
 			sourceTree = "<group>";
@@ -143,6 +169,9 @@
 			dependencies = (
 			);
 			name = bawky;
+			packageProductDependencies = (
+				7937A2E52A9CBD9C00B144EA /* WelcomeSheet */,
+			);
 			productName = bawky;
 			productReference = 79C3D97E2A9CB03900EB3A6D /* bawky.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +224,7 @@
 				TargetAttributes = {
 					79C3D97D2A9CB03900EB3A6D = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					79C3D98D2A9CB04200EB3A6D = {
 						CreatedOnToolsVersion = 15.0;
@@ -215,6 +245,9 @@
 				Base,
 			);
 			mainGroup = 79C3D9752A9CB03900EB3A6D;
+			packageReferences = (
+				7937A2E42A9CBD9C00B144EA /* XCRemoteSwiftPackageReference "Welcome-Sheet" */,
+			);
 			productRefGroup = 79C3D97F2A9CB03900EB3A6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +292,8 @@
 			files = (
 				79C3D9842A9CB03900EB3A6D /* ContentView.swift in Sources */,
 				79C3D9822A9CB03900EB3A6D /* bawkyApp.swift in Sources */,
+				79406F9E2A9CB38F00250D90 /* BuildChecker.swift in Sources */,
+				7937A2E82A9CBDC200B144EA /* Startup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -419,16 +454,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bawky/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G89J82G2A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bawky;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +476,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = live.cclerc.bawky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bawky/bawky-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +488,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bawky/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G89J82G2A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bawky;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = live.cclerc.bawky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bawky/bawky-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7937A2E42A9CBD9C00B144EA /* XCRemoteSwiftPackageReference "Welcome-Sheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MAJKFL/Welcome-Sheet";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7937A2E52A9CBD9C00B144EA /* WelcomeSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7937A2E42A9CBD9C00B144EA /* XCRemoteSwiftPackageReference "Welcome-Sheet" */;
+			productName = WelcomeSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79C3D9762A9CB03900EB3A6D /* Project object */;
 }
