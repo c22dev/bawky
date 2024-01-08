@@ -1,3 +1,4 @@
+# This project was leftover, it's not working, please don't test it.
 # bawky
 An icon theming app using kfd exploit.
 
